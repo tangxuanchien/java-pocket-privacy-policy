@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Java Pocket</title>
+<style>
+  :root{
+    --bg:#f7f2e6; --fg:#171614; --muted:#6f695d; --card:#fcf9f1;
+    --accent:#171614; --border:#ddd4c1;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#121211; --fg:#f2ecdf; --muted:#a29c8f; --card:#1b1a18;
+      --accent:#f2ecdf; --border:#34322e;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.65}
+  .wrap{max-width:780px;margin:0 auto;padding:40px 16px 80px}
+  header{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:28px}
+  h1{font-size:1.7rem;margin:0 0 6px}
+  h2{font-size:1.2rem;margin:34px 0 10px;color:var(--accent)}
+  .meta{color:var(--muted);font-size:.92rem}
+  a{color:var(--accent)}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin-top:14px}
+  ul{padding-left:20px}
+  code{background:var(--border);padding:1px 6px;border-radius:6px;font-size:.9em;overflow-wrap:anywhere}
+  footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--border);padding-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Java Pocket &middot; <code>vn.txclabs.nokia</code><br/>
+    Last updated: 12 November 2026</div>
+  </header>
+
+  <p>This Privacy Policy explains how <strong>Java Pocket</strong> ("the App", "we", "us") handles information
+  when you use it. The App lets you pick a classic-style handset and run J2ME (Java ME) games on it. By using the
+  App you agree to this policy.</p>
+
+  <h2>1. Information we process</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Games you import.</strong> When you tap "Import game", the App uses Android's file picker and only
+      receives the <code>.jar</code> / <code>.jad</code> file you choose. The game is installed and stored
+      <strong>inside the App's private storage on your device</strong>, together with its settings (screen size,
+      keys) and save data. We do not upload your games or save data anywhere. Removing a game in the App or
+      uninstalling the App deletes them.</li>
+      <li><strong>Games you run.</strong> Imported games run on your device inside the App's built-in Java ME
+      runtime. A game may itself connect to the internet if it was made to do so (for example to download levels
+      or post a score). Such connections go to the game's own servers, not to us, and are governed by that game's
+      publisher.</li>
+      <li><strong>Game catalog.</strong> The Explore tab lists games from a catalog bundled with the App. To show
+      cover pictures, the App loads images from the websites that host them (such as <code>downloadwap.com</code>,
+      <code>agneay.github.io</code> and <code>prodigits.co.uk</code>). Like any web request, this makes your IP
+      address and basic request details visible to those sites. When you tap a game to download it, its page opens
+      in your browser or another app; what happens there is governed by that website.</li>
+      <li><strong>Advertising.</strong> The App shows ads (banner, native, interstitial and app-open ads) served by
+      Google AdMob. To deliver, measure and limit the frequency of ads and to prevent fraud, Google may collect your
+      device's advertising ID, IP address, device and app information and how you interact with ads. Where the law
+      requires it (for example in the EEA, the UK and Switzerland), the App asks for your consent through Google's
+      consent form before personalised ads are shown; you can change your choice at any time in
+      <strong>Settings &rarr; Ads privacy settings</strong>. You can also reset or delete your advertising ID, or opt
+      out of personalised ads, in your device's Android settings (Settings &rarr; Privacy &rarr; Ads).</li>
+      <li><strong>App configuration.</strong> The App uses Google Firebase Remote Config to fetch settings (such as
+      whether ads are on and which ad units to use) without an app update. This uses a Firebase installation
+      identifier and basic device and app information.</li>
+      <li><strong>Stored on your device.</strong> Your settings (language, theme, vibration, the phone you picked,
+      favourite games), your ad consent choice and a launch counter are kept locally on your device and are not
+      sent to us.</li>
+    </ul>
+  </div>
+
+  <h2>2. What we do NOT do</h2>
+  <ul>
+    <li>We do not require an account or ask for your name, email or phone number.</li>
+    <li>We do not collect your contacts, location, photos or browsing history.</li>
+    <li>We do not use analytics or crash-reporting services.</li>
+    <li>We do not sell your personal data.</li>
+  </ul>
+
+  <h2>3. Third-party services</h2>
+  <p>The App relies on the following services. Their handling of data is governed by their own policies:</p>
+  <ul>
+    <li><strong>Google AdMob</strong> and the User Messaging Platform (ads and ad consent):
+    <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from apps that use its
+    services</a></li>
+    <li><strong>Google Firebase Remote Config</strong> (app configuration):
+    <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+    <li><strong>Websites hosting game covers and downloads</strong> listed in the catalog: their own privacy
+    policies apply when the App loads a cover picture or when you open a game's page.</li>
+  </ul>
+
+  <h2>4. Permissions</h2>
+  <ul>
+    <li><strong>Internet</strong> — to load ads, catalog cover pictures and the App's configuration, and for games
+    that use the network.</li>
+    <li><strong>Advertising ID</strong> (<code>AD_ID</code> and Android ad services) — used by Google AdMob to show
+    and measure ads, as described above.</li>
+    <li><strong>Vibration</strong> — for key-press feedback and for games that vibrate the phone.</li>
+  </ul>
+  <p>The App does not ask for storage permission: imported files come only through the Android file picker.</p>
+
+  <h2>5. Children</h2>
+  <p>The App is not directed to children under 13 and we do not knowingly collect personal data from them.</p>
+
+  <h2>6. Data retention</h2>
+  <p>Imported games, their save data and your settings stay on your device until you remove them, clear the App's
+  data or uninstall the App. Advertising and configuration data is retained by Google as described in its
+  policies.</p>
+
+  <h2>7. Your rights</h2>
+  <p>You can clear the App's data or uninstall it at any time to stop all data processing. You can manage ad
+  personalisation in Settings &rarr; Ads privacy settings and in your device's Android settings. Contact us with any
+  privacy request.</p>
+
+  <h2>8. Trademarks</h2>
+  <p>Java Pocket is an independent app. It is not affiliated with, endorsed or sponsored by Nokia, HMD Global,
+  Oracle or any game publisher. All product names, trademarks and games belong to their respective owners.</p>
+
+  <p>See also our <a href="terms.html">Terms of Use</a>.</p>
+
+  <h2>9. Changes</h2>
+  <p>We may update this policy; the "Last updated" date above will change accordingly.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions about this policy: <a href="mailto:tangxuanchien511@gmail.com">tangxuanchien511@gmail.com</a></p>
+
+  <footer>&copy; 2026 txclabs. All rights reserved.</footer>
+</div>
+</body>
+</html>
